@@ -1,0 +1,94 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+section
+{     
+    display: grid;
+    background: chocolate;
+    grid-template-columns: 3;
+}
+
+
+.header
+{
+ 
+ height: 150px;
+ background: white;  
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ grid-column-start: 1;
+ grid-column-end: 3;
+
+}
+
+.header  h1
+{
+ color: #539298;
+padding-left: 10px;
+}
+
+.subscription
+{
+    
+    background: #2BB3B1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription h1
+{
+    font-weight: bold;
+    color: white;
+    
+    font-size: 1rem;
+}
+.subscription p
+{
+    font-size: 1.3rem;
+}
+.subscription p span
+{
+    font-size: 0.5rem;
+    color: white;
+}
+.pa
+{
+    font-size: 1rem;
+    color: white;
+}
+button
+{
+    display: inline-block;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: #BFDF32;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+.why
+{
+    background: #4ABEBD;
+}
+
+.why h1
+{
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 0rem 0rem 2.2rem;
+}
+
+.why ul li
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 1.6rem;
+    font-size: 0.8rem;
+}

@@ -1,128 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-
- *{
-     box-sizing: border;
- }
-
- :root
- {
-  --white: white;
-  --textFont: 'Big Shoulders Display', cursive;
-  --paragraph: 'Lexend Deca', sans-serif;
- }
  
+
+ *
+ {
+     box-sizing: border-box;
+ }
+
  body
  {
-     height: 100vh;
-     width: 100vw;
+     background-color: chocolate;
  }
 
  section
  {
-     height: 100vh;
-     display: flex;
-    flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;
-     
- }
-
- .container
- {
-    width: 305px;
-    height: 506px;
-    background-color: white;
-    padding: 46px 43px;
-    color: white
-     
- }
-
- .sedan
- {
-     background: #E28525;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
- }
-
- .sedan h1,img
- {
-     text-transform: uppercase;
-     font-size: 1.2rem;
-     position: relative;
-     left: 30px;
-     font-family: var(--textFont);
- }
-.sedan p
-{
-    padding: 37px 0 50px 0;
-    font-family: var(--paragraph);
-}
- .sedan button
- {
-     color: #E28525;
-     
- }
-.suvs
-{
-    background: #016972;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.suvs h1,img
-{
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    position: relative;
-    left: 30px;
-    font-family: var(--textFont);
-}
-.suvs p
-{
-    padding: 37px 0 50px 0;
-    font-family: var(--paragraph);
-}
-.suvs button
-{
-    color: #016972;
-     align-self: center;
-}
-.luxury
-{
-    background: #00403F;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-}
-.luxury h1,img
-{
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    position: relative;
-    left: 30px;
-    font-family: var(--textFont);
-}
-.luxury p
-{
-    padding: 37px 0 50px 0;
-    font-family: var(--paragraph);
-}
-.luxury button
-{
-    color: #00403F;
-     align-self: center;
-}
- button
- {
-     display: inline-block;
-     width: 150px;
-     height: 50px;
-     border-radius: 30px;
-     border: none;
-     font-size: 0.8rem;
-     background: var(--white);
-     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-     cursor: pointer;
+     height: 100px;
+     width: 100px;
+     background: chocolate;
  }
