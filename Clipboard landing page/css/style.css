@@ -54,6 +54,7 @@ header
     height: 300px;
     border: 2px solid red;
     padding: 20px;
+    background: url(/images/pattern-background-desktop.svg);
 }
 
 .header-content
