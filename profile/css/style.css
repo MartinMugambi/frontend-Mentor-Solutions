@@ -1,0 +1,42 @@
+
+
+.card
+{
+    height:  100vh;
+    width:  100vw;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-color
+{
+    border-radius: 20px;
+}
+
+.card-color .url
+{
+    border-radius: 50px;
+    position: absolute;
+    width: 20%;
+    top: 90px;
+    left: 150px;
+   
+}
+  
+.info
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.social
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+}
