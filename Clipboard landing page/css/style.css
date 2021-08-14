@@ -79,6 +79,7 @@ header
 .header-btn
 {
     display: flex;
+    
 }
 .ios-btn
 {
@@ -88,5 +89,5 @@ header
 .mac-btn
 {
     background: var(--primary-dark-color);
-    display: inline;
+    margin-left: 5px;
 }
