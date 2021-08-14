@@ -51,7 +51,7 @@
 header
 {
     width: 100vw;
-    height: 300px;
+    height: 280px;
     border: 2px solid red;
     padding: 20px;
     background: url(/images/bg-header-desktop.png) center/cover no-repeat; 
@@ -97,3 +97,62 @@ header
     background: var(--primary-dark-color);
     margin-left: 5px;
 }
+
+/* end of  header section */
+
+/* section 2 styles */
+ section
+ {
+    border: 3px solid green;
+     width: 100vw;
+     height: 600px;
+
+ }
+
+ .section-content
+ {
+      
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows:   100px 100px;
+     
+ }
+
+ .section-tile
+ {
+     grid-column-start: 1;
+     grid-column-end: 4;
+     justify-self: center;
+     
+ }
+
+.text{
+ text-align: center;
+
+}
+  .img-section
+ {
+     grid-column-start: 1;
+     grid-row-start: 2;
+     grid-column-end: 3;
+ }
+ .section-info
+ {
+     grid-column-start: 2;
+     grid-column-end: 2;
+     grid-row-start: 2; 
+     font-family: var(--main-font);
+     font-size: 1.2rem;   
+ }   
+/* end of section 2 style*/
+
+/* section 2 */
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* end of section 2 */
