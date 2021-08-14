@@ -45,12 +45,21 @@
 
 
 /* end of class utitlities */
+
 /* header section */
 header
 {
     width: 100vw;
     height: 200px;
     border: 2px solid red;
+}
+
+.header-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-title
@@ -73,4 +82,5 @@ header
 .mac-btn
 {
     background: var(--primary-dark-color);
+    display: inline;
 }
