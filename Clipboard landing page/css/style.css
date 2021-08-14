@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root
+{
+    /* page colors */
+    --primary-color: hsl(240, 80%, 50%);
+    --primary-light-color: hsl(240, 78%, 60%);
+    --primary-lighter-color: hsl(240, 45%, 69%);
+    --primary-dark-color: hsl(240, 18%, 31%);
+    --secondary-color: hsl(120, 74%, 50%);
+    --secondary-light-color: hsl(120, 60%, 65%);
+    --secondary-lighter-color: hsl(120, 65%, 80%);
+
+    /* Utilities colors */
+    --dark-color: hsl(360, 60%, 0%);
+    --white-color: hsl(0,60%, 100%);
+    --grey-color: hsl(0, 2%, 47%);
+    
+    /* font- family */
+     --main-font: 'Poppins', sans-serif;
+     
+}
+
