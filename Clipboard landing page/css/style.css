@@ -16,6 +16,7 @@
     --secondary-color: hsl(120, 74%, 50%);
     --secondary-light-color: hsl(120, 60%, 65%);
     --secondary-lighter-color: hsl(120, 65%, 80%);
+    --secondary-dark-color: hsl(120, 75%, 35%);
 
     /* Utilities colors */
     --dark-color: hsl(360, 60%, 0%);
@@ -27,3 +28,49 @@
      
 }
 
+/* class utilittes */
+.btn
+{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    color: var(--white-color);
+    font-family: var(--main-font);
+}
+
+
+/* end of class utitlities */
+/* header section */
+header
+{
+    width: 100vw;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.header-title
+{
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+}
+
+.header-text
+{
+    font-family: var(--main-font);
+    font-size: 0.9rem;
+}
+
+.ios-btn
+{
+    background: var(--secondary-dark-color);
+}
+
+.mac-btn
+{
+    background: var(--primary-dark-color);
+}
