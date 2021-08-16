@@ -194,9 +194,23 @@ header
     justify-content: space-evenly;
 }
 /* end of section 3 */
-
+/* section 4 */
 .company
 {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
+/* end of section 4 */
+
+/* section 5 */
+.main-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* end of section 5 */
