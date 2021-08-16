@@ -10,8 +10,11 @@
     --primary-light-blue: hsl(240, 65%, 60%);
     --primary-ligher-blue: hsl(240, 55%, 70%);
     --primary-yellow-color: hsl(60, 80%, 50%);
-}
+    /* colors */
+    --white-color: hsl(0, 50%, 100%);
 
+}
+/* utilities */
 .btn
 {
     display: inline-block;
@@ -20,6 +23,7 @@
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     border: none;
+    text-transform: uppercase;
 }
 
 li
@@ -30,17 +34,44 @@ li
 a
 {
      text-decoration: none;
+     color: var(--white-color);
+     font-size: 1rem;
+     letter-spacing: 0.2rem;
 }
 
+.center
+{
+text-align: center;
+}
+
+
+/* end of utilities */
 /* header section */
 header
 {
      padding: 20px;
-}
+     background: url(/images/desktop/image-header.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 400px;
+    }
+
+ .logo
+ {
+    font-size: 1.3rem;
+    color: var(--white-color) ;
+     
+ }   
 
 .title
 {
-    font-size: 1.3rem;
+    font-size: 3.0rem;
+    color: var(--white-color) ;
+    margin-bottom: 100px;
+    letter-spacing: 0.3rem;
+    position: relative;
+    top: 30px;
 }
 .nav-bar h2
 {
@@ -53,8 +84,17 @@ header
      justify-content: space-between;
      
  }
- .nav
+ .head-info
  {
-       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+ }
+
+ .arrow
+ {
+     position: absolute;
+     top: 120px;
  }
 /* end of header section */
