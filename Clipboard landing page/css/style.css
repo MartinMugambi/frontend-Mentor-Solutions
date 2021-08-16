@@ -26,7 +26,7 @@
 
     
     /* font- family */
-     --main-font: 'Poppins', sans-serif;
+     --main-font: 'Bai Jamjuree', sans-serif;;
      
 }
 
@@ -35,15 +35,13 @@
 .btn
 {
     display: inline-block;
-    width: 150px;
-    height: 40px;
+    padding: 15px 30px;
     border: none;
-    padding: 10px;
     text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 20px;
     color: var(--white-color);
     font-family: var(--main-font);
+    cursor: pointer;
 }
 
 
@@ -52,9 +50,6 @@
 /* header section */
 header
 {
-    width: 100vw;
-    height: 280px;
-    border: 2px solid red;
     padding: 20px;
     background: url(/images/bg-header-desktop.png) center/cover no-repeat; 
 }
@@ -65,13 +60,15 @@ header
     flex-direction: column;
     align-items:center;
     justify-content: center;
+    
 }
 
 .header-title
 {
     font-family: var(--main-font);
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     margin-top: 20px;
+    
 }
 
 .header-text
@@ -87,17 +84,19 @@ header
 {
     display: flex;
     margin-top: 15px;
+    gap: 20px;
     
 }
 .ios-btn
 {
     background: var(--secondary-dark-color);
+    box-shadow: 0 3px 0px 0px var(--secondary-light-color);
 }
 
 .mac-btn
 {
     background: var(--primary-dark-color);
-    margin-left: 5px;
+    box-shadow: 0 3px 0px 0px var(--primary-light-color);
 }
 
 /* end of  header section */
