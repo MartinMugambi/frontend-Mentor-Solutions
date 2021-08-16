@@ -156,3 +156,22 @@ header
     text-align: center;
 }
 /* end of section 2 */
+
+/* section 3 */
+.content-tile
+{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly ;
+   
+    
+}
+
+.icon
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: ;
+}
+/* end of section 3 */
