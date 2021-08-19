@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 *
 {
   margin: 0px;
@@ -6,34 +8,54 @@
 }
 
 :root
-{
-    --primary-color: hsl(186, 60%, 40%);
-    --secondary-dark-color: hsl(240, 17%, 5%);
-    /* utitlities colors */
+{   
+     /*primary colors  */
+    --soft-violet: hsl(277, 64%, 61%);
     --very-dark-blue:  hsl(233, 47%, 7%);
+    --dark-desaturated-blue: hsl(244, 38%, 16%);
+
+    /* Neutral Colors */
+    --white-color: hsl(0, 0%, 100%);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+
+    /* font-families */
+     --primary-font:'Inter', sans-serif;
+     --secondary-font: 'Lexend Deca', sans-serif;
+
 }
 
 .card
 {
-    height: 300px;
+     
+    height: 450px;
     border: 2rem solid goldenrod;
-    background: saddlebrown;
+    background: var(--very-dark-blue);
     display: flex;
+    justify-content: center;
+    align-items: center;
+     
 }
 .card h2
 {
     text-align: center;
     margin-top: 20px;
+    font-family: var(--primary-font);
 }
 
-.card p 
+.text 
 {
-    margin: 0 auto;
+    color: var(--slightly-transparent-white);
+    font-family: var(--secondary-font);
+    font-size: 0.9rem;
+    margin: 15px 10px 0px 10px;
+    padding: 10px 20px 10px 30px;
+    text-align: center;
 }
 
 .card h2 span
 {
-color: var(--primary-color);
+color: var(--soft-violet);
 
 }
 .card
@@ -42,6 +64,7 @@ color: var(--primary-color);
 }
 .container
 {
+  width: 50%;    
   height: 300px;
   background:   var(--secondary-dark-color);
 }
@@ -49,10 +72,28 @@ color: var(--primary-color);
 .followers
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 15px 10px 10px;
+    gap: 20px;
    
 }
 
-.img-container
+.followers h1
 {
-    background: url("./images/image-header-desktop.jpg");
+    font-family: var(--secondary-font);
+    
+}
+
+.followers p
+{
+    color: var(--slightly-transparent-white);
+    font-size: 0.8rem;
+    font-family: var(--primary-font);
+}
+.img img
+{
+    
+    width: 100%;
+    
 }
