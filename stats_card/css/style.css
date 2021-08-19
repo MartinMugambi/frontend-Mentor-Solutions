@@ -1,0 +1,58 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root
+{
+    --primary-color: hsl(186, 60%, 40%);
+    --secondary-dark-color: hsl(240, 17%, 5%);
+    /* utitlities colors */
+    --very-dark-blue:  hsl(233, 47%, 7%);
+}
+
+.card
+{
+    height: 300px;
+    border: 2rem solid goldenrod;
+    background: saddlebrown;
+    display: flex;
+}
+.card h2
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card p 
+{
+    margin: 0 auto;
+}
+
+.card h2 span
+{
+color: var(--primary-color);
+
+}
+.card
+{
+    color: var(--white-color);
+}
+.container
+{
+  height: 300px;
+  background:   var(--secondary-dark-color);
+}
+
+.followers
+{
+    display: flex;
+   
+}
+
+.img-container
+{
+    background: url("./images/image-header-desktop.jpg");
+}
