@@ -117,13 +117,100 @@
 
 /* media Queries*/
 
-@media screen and (min-width: 768px)
+ @media screen and (min-width: 768px)
+ {
+
+
+      .card-section
+      {
+          display: flex;
+          flex-direction: row;
+      }
+      .card img
 {
-    .card-section
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
+      position: absolute;
+      right: 0;
+      margin-top: 30px;
+      margin-right: 30px;
+      
 }
+ }
+
+ @media screen and (min-width: 992px)
+ {
+      body
+      {
+          position: relative;
+          height: 100vh;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+           
+      }
+      .container .title .text
+{
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 200;
+    color: var(--grayish-blue);
+    font-size: 1.7rem;
+}
+
+.container .title .text-1
+{
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+      .container .title p
+      {
+          font-family: var(--primary-font);
+          font-weight: 200;
+          color: var(--grayish-blue);
+          text-align: center;
+          font-size: 1.1rem;
+          padding: 0px auto;
+          line-height: 2rem;
+          margin-top: 10px;
+          margin-bottom: 20px;
+      }
+      
+      .card
+    {
+        width: 300px;
+        height: 220px;
+        background: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: relative;
+        border-radius: 5px;
+   }
+   
+   .card img
+{
+      position: absolute;
+      right: 0;
+      margin-top: 30px;
+      margin-right: 30px;
+      
+}
+   
+  .a, .d
+  {
+   position: relative;
+    top: 80px;
+  }
+      .b
+      {
+          position: relative;
+          bottom:  10px;
+      }
+      .c
+      {
+          position: absolute;
+            bottom: -100px;
+      }
+ }
