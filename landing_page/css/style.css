@@ -235,6 +235,49 @@ section .card img
 {
     color: var(--light-grayish-blue);
     font-family: var(--secondary-font);
+    line-height: 1.5rem;
 }
 
 /* end of section3 */
+
+/* last section */
+
+.last 
+{
+    background: var(--very-dark-blue);
+    color: var(--light-grayish-blue);
+    padding: 30px 30px;
+}
+.last-logo
+{
+    margin-bottom: 20px;
+}
+.last-info
+{
+    margin-bottom: 20px;
+}
+.last-info img 
+{
+    display: block;    
+}
+.last-info span
+{
+ 
+    display: block;
+    margin-bottom: 20px;
+    font-family: var(--secondary-font);
+    font-size: 0.7rem;      
+}
+.links a
+{
+    color: var(--light-grayish-blue);
+    font-family: var(--secondary-font);
+    font-size: 0.9rem;
+}
+
+.social
+{
+    display: flex;
+    justify-content: center;
+}
+/* end of last section */
