@@ -44,6 +44,21 @@ a
 {
     text-align: center;
 }
+
+.btn
+{
+    display: block;
+    padding: 10px 20px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    width: 300px;
+    background: var(--bright-blue);
+    color: var(--light-grayish-blue);
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+
+}
 /* end of class utilities */
 
 /* header section */
@@ -66,3 +81,48 @@ header .nav_list ul
 }
  
 /* end of header section */
+
+/* section 1 */
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section_image img
+{
+    width: 70%;
+}
+
+.section-info h1
+{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    padding: 0px 90px;
+}
+
+.section-info p
+{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--desaturated-blue);
+    padding: 0px 90px;
+    line-height: 1.5rem;
+}
+
+.form input[type= "text"]
+{
+ width: 300px;
+ padding: 10px 20px;
+ margin-bottom: 20px;
+ outline: none;
+}
+
+.form input[type="text"]::placeholder
+{
+    font-family: var(--primary-font);
+}
+/* end section 1 */
