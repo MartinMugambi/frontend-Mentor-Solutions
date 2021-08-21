@@ -60,6 +60,15 @@ a
     cursor: pointer;
 
 }
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 /* end of class utilities */
 
 /* header section */
@@ -84,14 +93,16 @@ header .nav_list ul
 /* end of header section */
 
 /* section 1 */
-section
+
+.details
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 20px
 }
+
 .section_image img
 {
     width: 70%;
@@ -102,6 +113,7 @@ section
 {
     font-family: var(--primary-font);
     font-weight: 700;
+    text-align: center;
     color: var(--very-dark-blue);
     padding: 0px 90px;
 }
@@ -113,6 +125,7 @@ section
     color: var(--desaturated-blue);
     padding: 0px 90px;
     line-height: 1.5rem;
+    text-align: center;
 }
 
 .form input[type= "text"]
@@ -130,12 +143,26 @@ section
 /* end section 1 */
 
 /* section 2 */
+.deta
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: url(/landing_page/images/bg-curve-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
 section .info-text h1
 {
     font-family: var(--primary-font);
     font-weight: 700;
     color: var(--very-dark-blue);
     font-size: 1.5rem;
+    text-align: center;
 }
 
 section .info-text p
@@ -230,12 +257,14 @@ section .card img
     color: var(--light-grayish-blue);
     font-family: var(--primary-font);
     margin-bottom: 20px;
+    text-align: center;
 }
 .section_info p
 {
     color: var(--light-grayish-blue);
     font-family: var(--secondary-font);
     line-height: 1.5rem;
+    text-align: center;
 }
 
 /* end of section3 */
@@ -279,5 +308,139 @@ section .card img
 {
     display: flex;
     justify-content: center;
+    
 }
 /* end of last section */
+
+/* media queries */
+@media screen and (min-width: 768px)
+{
+
+
+    header .nav_list ul
+{
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+.details
+{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px
+}
+.section-info h1
+{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    text-align: center;
+    color: var(--very-dark-blue);
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+.section-info p
+{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--desaturated-blue);
+    padding: 0px 30px;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form
+{
+    padding: 0 30px;
+}
+.deta
+{
+    display: flex;
+    flex-direction: row-reverse;    
+    background: url(/landing_page/images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    
+}
+.name
+{
+    font-size: 1.3rem;
+    color: var(--very-dark-blue);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    position: relative;
+    bottom: 40px;
+    margin-left: 20px;
+
+}
+ .card
+ {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     margin-left: 20px;
+        
+ }
+.founder
+{
+    display: block;
+     font-family: var(--primary-font);
+     font-weight: 700;
+     color: var(--very-dark-blue);
+     position: relative;
+     bottom: 35px;
+     left: 95px;
+     font-size: 0.7rem;
+}
+.three
+{
+    background: var(--desaturated-blue);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.three .section_info h1
+{
+    color: var(--light-grayish-blue);
+    font-family: var(--primary-font);
+    text-align: left;
+     
+}
+.section_info p
+{
+    color: var(--light-grayish-blue);
+    font-family: var(--secondary-font);
+    line-height: 1.5rem;
+    text-align:  left;
+    font-size: 0.9rem;
+}
+ 
+.btn
+{
+    display: inline;
+    padding: 10px 20px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    width: 150px;
+    background: var(--bright-blue);
+    color: var(--light-grayish-blue);
+    outline: none;
+    border: none;
+    font-size: 0.7rem;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.last 
+{
+    background: var(--very-dark-blue);
+    color: var(--light-grayish-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    
+}
+}
+/* end of media queries */
