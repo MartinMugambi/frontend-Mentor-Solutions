@@ -158,6 +158,7 @@ section .info a
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 20px 20px;
     width: 400px;
+    margin-bottom: 20px;
 }
 
 .qoutes
@@ -211,3 +212,29 @@ section .card img
 
 
 /* section 2 stylings */
+
+/* section 3 */
+.three
+{
+    background: var(--desaturated-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    gap: 20px;
+}
+
+.section_info h1
+{
+    color: var(--light-grayish-blue);
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+}
+.section_info p
+{
+    color: var(--light-grayish-blue);
+    font-family: var(--secondary-font);
+}
+
+/* end of section3 */
