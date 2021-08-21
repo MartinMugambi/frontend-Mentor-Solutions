@@ -57,6 +57,7 @@ a
     outline: none;
     border: none;
     font-size: 0.9rem;
+    cursor: pointer;
 
 }
 /* end of class utilities */
@@ -127,3 +128,86 @@ section
     font-family: var(--primary-font);
 }
 /* end section 1 */
+
+/* section 2 */
+section .info-text h1
+{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    font-size: 1.5rem;
+}
+
+section .info-text p
+{
+    font-family: var(--secondary-font);
+    font-weight: 200;
+    color: var(--light-gray);
+    padding: 0px 15px;
+}
+
+section .info a 
+{
+
+}
+
+ section .card
+{
+    
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 20px;
+    width: 400px;
+}
+
+.qoutes
+{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    font-size: 3.0rem;
+    display: block;
+}
+
+section .card p
+{
+    font-family: var(--primary-font);
+    font-family: var(--primary-font);
+    font-weight: 700px;
+    line-height: 1.5rem;
+    color: var(--very-dark-blue);
+    margin-bottom: 20px;
+}
+
+section .card img
+{
+    border-radius: 100px;
+    width: 20%;
+}
+
+.name
+{
+    font-size: 1.3rem;
+    color: var(--very-dark-blue);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    position: relative;
+    bottom: 40px;
+    margin-left: 20px;
+
+}
+
+.founder
+{
+    display: block;
+     font-family: var(--primary-font);
+     font-weight: 700;
+     color: var(--very-dark-blue);
+     position: relative;
+     bottom: 35px;
+     left: 95px;
+     font-size: 0.7rem;
+}
+
+
+/* section 2 stylings */
