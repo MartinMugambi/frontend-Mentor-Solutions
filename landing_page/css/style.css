@@ -27,3 +27,42 @@
     --secondary-font: 'Open Sans', sans-serif; 
 
 }
+
+/* class utilities */
+ul li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--very-dark-blue);
+}
+
+.center
+{
+    text-align: center;
+}
+/* end of class utilities */
+
+/* header section */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    font-family: var(--primary-font);
+    font-size: 0.9rem;
+}
+header .logo img
+{
+    width: 60%;
+}
+header .nav_list ul
+{
+    display: flex;
+    gap: 20px;
+}
+ 
+/* end of header section */
