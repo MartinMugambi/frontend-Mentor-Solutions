@@ -94,6 +94,7 @@ section
 .section_image img
 {
     width: 70%;
+    margin-top: 60px;
 }
 
 .section-info h1
