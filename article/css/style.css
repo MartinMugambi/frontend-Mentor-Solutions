@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+:root
+{
+    /* primary colors */
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+
+    /* fontts */
+    --primary-font: 'Manrope', sans-serif;
+}
+
+
+body
+{
+    background: var(--grayish-blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section
+{
+    width: 500px;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    
+}
+
+section .logo img
+{
+    width: 100%;
+}
+
+section .article h1
+{
+    color: var(--very-dark-grayish-blue);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px 50px;
+}
+
+section .article p
+{
+    font-family: var(--primary-font);
+    color: var(--grayish-blue);
+    font-size: 1rem;
+    padding: 10px 50px;
+}
+
+section .article img
+{
+    border-radius: 50px;
+     margin-left: 30px;
+     margin-top: 30px;
+}
+
+section .article .name
+{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 1.0rem;
+    color: var(--very-dark-grayish-blue);
+    position: relative;
+    bottom: 30px;
+}
+section .article .date
+{
+    display: block;
+    font-family: var(--primary-font);
+    color: var(--grayish-blue);
+    font-size: 0.9rem;
+    position: relative;
+    left: 75px;
+    bottom: 30px;
+}
+/* media queries */
+
+@media screen and (min-width: 768px)
+
+{
+    section
+{  
+    border-radius: 20px;
+    width: 700px;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    
+}
+   .main
+   {
+       display: flex;
+   }
+   section .logo img
+{
+border-radius: 10px 0px 0px 0px;
+     
+}
+
+}
